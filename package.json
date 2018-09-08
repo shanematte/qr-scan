@@ -1,0 +1,40 @@
+{
+  "name": "qrscanning",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "feathers": "^2.1.7",
+    "feathers-client": "^2.3.0",
+    "moment": "^2.18.1",
+    "react": "16.0.0-alpha.12",
+    "react-csv": "^1.0.8",
+    "react-native": "0.47.1",
+    "react-native-camera": "^0.10.0",
+    "react-native-fontawesome": "^5.7.0",
+    "react-native-loader": "^1.1.0",
+    "react-native-splash-screen": "^2.1.0",
+    "react-native-table-component": "^1.0.5",
+    "react-native-torch": "^1.0.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "redux-persist": "^4.8.3",
+    "redux-thunk": "^2.2.0",
+    "socket.io-client": "^2.0.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.1.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
